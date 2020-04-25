@@ -2,16 +2,32 @@
   "name": "ResGen",
   "version": "2.0.0",
   "description": "Summarizer",
+  "engines": {
+    "node": "12.16.1"
+  },
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "multer": "^1.3.0",
     "python-shell": "^1.0.8"
-  }
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/chintan992/ResGen_node_python"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "python"
+  ],
+  "license": "MIT"
 }
