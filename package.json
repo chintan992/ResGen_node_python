@@ -1,0 +1,17 @@
+{
+  "name": "ResGen",
+  "version": "2.0.0",
+  "description": "Summarizer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "python-shell": "^1.0.8"
+  }
+}
