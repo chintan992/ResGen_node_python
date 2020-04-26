@@ -11,12 +11,13 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 #file name
 filename = sys.argv[1]
-
+#filename = "abc.pdf"
+dir = "./public/uploads/"
 #creating command line arguments
 #parser = argparse.ArgumentParser(description='input file name')
-
+new_fname = dir+filename
 #parsing pdf
-raw = parser.from_file('./public/uploads/',filename)
+raw = parser.from_file(new_fname)
 #print(raw['content'])
 
 #storing parsed data into variable
