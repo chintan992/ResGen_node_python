@@ -69,7 +69,7 @@ app.post('/upload', (req, res) => {
                   mode: 'text',
                   args: [fname]
                 };
-              PythonShell.run('resgen.py', options, function (err,result) {
+              PythonShell.run('resgen_v2.py', options, function (err,result) {
                     if (err) throw err;
                     
                     
